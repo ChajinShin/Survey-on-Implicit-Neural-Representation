@@ -1,6 +1,6 @@
 # Survey on Implicit Neural Representations
 
-[Chajin Shin](https://github.com/ChajinShin)<sup>\*1</sup><br> [Taeoh Kim](https://taeoh-kim.github.io/)<sup>\*1</sup>
+[Chajin Shin](https://github.com/ChajinShin)<sup>\*1</sup> [Taeoh Kim](https://taeoh-kim.github.io/)<sup>\*1</sup>
 <sup>*</sup> indicates equal contribution<br>
 <sup>1</sup> Yonsei University<br>
 
