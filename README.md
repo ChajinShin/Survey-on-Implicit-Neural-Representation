@@ -24,6 +24,7 @@
 |    D-NeRF   |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201125  |
 |     DeRF    |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201125  |
 |   AutoInt   |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201203  |
+|  pixelNeRF  |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201203  |
 |     NeRD    |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201207  |
 |     NeRV    |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201207  |
 |  DI-Fusion  |   3D Vision   |          View Synthesis                    |       -      |  Arxiv'201210  |
@@ -105,6 +106,11 @@
 
 - **[AutoInt]** AutoInt: Automatic Integration for Fast Neural Volume Rendering  | **[Arxiv'201203]** |[`[pdf]`](https://arxiv.org/abs/2012.01714)
     - Using radiance field for view synthesis has an extreme computational complexity and memory. To cope this problem, they instantiate the computational graph corresponding to the derivative of the implicit neural representation. Then they build the grad network and optimize it.
+
+
+- **[pixelNeRF]** pixelNeRF: Neural Radiance Fields from One or Few Images | **[Arxiv'201203]** |[`[pdf]`](https://arxiv.org/abs/2012.02190) [`[official code - pytorch]`](https://github.com/sxyu/pixel-nerf) 
+    - Predicting a continuous neural scene representation with one or few input images in a fully convolutional manner. They directly train using images. Network takes image, camera ray point coordinate, and camera view direction then predicts RGB and volume density values.
+
 
 
 - **[NeRD]** NeRD: Neural Reflectance Decomposition from Image Collections  | **[Arxiv'2012107]** |[`[pdf]`](https://arxiv.org/abs/2012.03918) [`[official code]`](https://github.com/cgtuebingen/NeRD-Neural-Reflectance-Decomposition)
